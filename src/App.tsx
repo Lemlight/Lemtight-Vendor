@@ -1,22 +1,22 @@
 import "./index.css";
 
-import { Toaster } from "@/components/ui/toaster";
+import { Toaster } from "./components/ui/toaster";
 import { createRoot } from "react-dom/client";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster as Sonner } from "./components/ui/sonner";
+import { TooltipProvider } from "./components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
-import Orders from "./pages/Orders";
+import Orders from "./pages/Order";
 import OrderDetails from "./pages/OrderDetails";
 import Analytics from "./pages/Analytics";
 import Customers from "./pages/Customers";
-import Foods from "./pages/Foods";
+import Foods from "./pages/Food";
 import Reviews from "./pages/Reviews";
-import Calendar from "./pages/Calendar";
-import Chat from "./pages/Chat";
+import Calendar from "./pages/Calender";
+import Chat from "./pages/Chats";
 import Wallet from "./pages/Wallet";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NoutFound";
 
 const queryClient = new QueryClient();
 
