@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
 import {
-  LineChart,
+  // LineChart,
   Line,
   BarChart,
   Bar,
-  AreaChart,
+  // AreaChart,
   Area,
   XAxis,
   YAxis,

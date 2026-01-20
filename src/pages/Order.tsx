@@ -50,22 +50,22 @@ const getStatusColor = (status: string) => {
   }
 };
 
-const getStatusLabel = (status: string) => {
-  switch (status) {
-    case "order-placed":
-      return "Order Placed";
-    case "cooking-started":
-      return "Cooking Started";
-    case "packaging":
-      return "Packaging Food";
-    case "rider-assigned":
-      return "Rider Assigned";
-    case "arriving":
-      return "Arriving in few minutes";
-    default:
-      return status;
-  }
-};
+// const getStatusLabel = (status: string) => {
+//   switch (status) {
+//     case "order-placed":
+//       return "Order Placed";
+//     case "cooking-started":
+//       return "Cooking Started";
+//     case "packaging":
+//       return "Packaging Food";
+//     case "rider-assigned":
+//       return "Rider Assigned";
+//     case "arriving":
+//       return "Arriving in few minutes";
+//     default:
+//       return status;
+//   }
+// };
 
 export default function Orders() {
   const [orders, setOrders] = useState(initialOrders);

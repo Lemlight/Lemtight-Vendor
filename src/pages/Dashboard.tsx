@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import {
-  LineChart,
-  Line,
+  // LineChart,
+  // Line,
   BarChart,
   Bar,
   AreaChart,
@@ -47,7 +47,7 @@ export default function Dashboard() {
       <div className="space-y-6">
         {/* Header */}
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Hi Vendor, 👋</h1>
+          <h1 className="text-3xl font-bold text-foreground">Hi Daniel G, 👋</h1>
           <p className="text-muted-foreground mt-1">Welcome back! Here's your vendor dashboard.</p>
         </div>
 
@@ -153,7 +153,7 @@ export default function Dashboard() {
                   dataKey="value"
                 >
                   {categoryData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index]} />
+                    <Cell key={`cell-${entry}`} fill={COLORS[index]} />
                   ))}
                 </Pie>
                 <Tooltip />
