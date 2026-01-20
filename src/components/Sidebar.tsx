@@ -51,13 +51,13 @@ export default function Sidebar({ isOpen }: SidebarProps) {
         {/* Logo */}
         <div className={`p-6 border-b border-gray-200 flex items-center justify-between ${collapsed ? "px-3" : ""}`}>
           <div className={`flex items-center gap-2 ${collapsed ? "hidden group-hover:flex" : ""}`}>
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-[#077a69] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">V</span>
             </div>
-            <span className="text-xl font-bold text-foreground">Vendor</span>
+            {/* <span className="text-xl font-bold text-foreground">Vendor</span> */}
           </div>
           {collapsed && (
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-[#077a69] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">V</span>
             </div>
           )}
@@ -87,7 +87,7 @@ export default function Sidebar({ isOpen }: SidebarProps) {
                     to={item.path}
                     className={`flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-all relative group/item ${
                       isActive
-                        ? "bg-primary text-primary-foreground shadow-md"
+                        ? "bg-[#077a69] text-white shadow-md"
                         : "text-foreground hover:bg-gray-100 text-gray-700"
                     }`}
                   >
@@ -120,8 +120,8 @@ export default function Sidebar({ isOpen }: SidebarProps) {
             <div className="w-10 h-10 bg-gray-300 rounded-full flex-shrink-0" />
             {!collapsed && (
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-foreground">Admin</p>
-                <p className="text-xs text-muted-foreground truncate">admin@vendor.com</p>
+                <p className="text-sm font-medium text-foreground">🍴</p>
+                <p className="text-xs text-muted-foreground truncate">vendor@vendor.com</p>
               </div>
             )}
           </div>

@@ -49,11 +49,11 @@ export default function Header({ onMenuClick, sidebarOpen }: HeaderProps) {
         {/* User Profile */}
         <div className="flex items-center gap-3 pl-4 border-l border-gray-200">
           <div className="hidden sm:block text-right">
-            <p className="text-sm font-medium text-foreground">John Doe</p>
-            <p className="text-xs text-muted-foreground">Administrator</p>
+            <p className="text-sm font-medium text-foreground">Daniel G</p>
+            <p className="text-xs text-muted-foreground">Vendor</p>
           </div>
-          <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold">
-            JD
+          <div className="w-10 h-10 bg-[#077a69] rounded-full flex items-center justify-center text-white font-bold">
+            DG
           </div>
         </div>
       </div>
