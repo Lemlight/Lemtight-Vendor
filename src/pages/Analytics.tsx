@@ -14,7 +14,7 @@ import {
   Legend,
   ComposedChart,
 } from "recharts";
-import { TrendingUp, Calendar, Download } from "lucide-react";
+import { Calendar, Download } from "lucide-react";
 
 const salesTrendData = [
   { date: "Jan 1", sales: 4000, orders: 24, customers: 120 },

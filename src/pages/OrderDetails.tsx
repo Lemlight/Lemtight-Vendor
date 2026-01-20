@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, MapPin, Phone, Mail, Clock, DollarSign } from "lucide-react";
+import { ArrowLeft, MapPin, Phone, Mail } from "lucide-react";
 import { useState } from "react";
 
 interface OrderDetail {
